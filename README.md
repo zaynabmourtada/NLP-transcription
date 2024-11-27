@@ -6,21 +6,21 @@ A mobile application for real-time transcription in English and Arabic using Rea
 
 Before running the application, ensure the following are installed and set up:
 
-    1. **Node.js**:
-        Download and install Node.js from the official website.
+1. **Node.js**:
+   Download and install Node.js from the official website.
 
-    2. **React Native CLI**:
-        Install the React Native CLI globally using:
-            ```npm install -g react-native-cli```
+2. **React Native CLI**:
+   Install the React Native CLI globally using:
+   `npm install -g react-native-cli`
 
-    3. **Expo CLI**:
-        Install the Expo CLI globally using:
-            ```npm install -g expo-cli```
+3. **Expo CLI**:
+   Install the Expo CLI globally using:
+   `npm install -g expo-cli`
 
-    4. **Android Studio**:
-        - Download and install Android Studio.
-        - During installation ensure Android SDK and Android Virtual Device (AVD) are checked.
-        - Set up a virtual device using Android Studio's Device Manager.
+4. **Android Studio**:
+   - Download and install Android Studio.
+   - During installation ensure Android SDK and Android Virtual Device (AVD) are checked.
+   - Set up a virtual device using Android Studio's Device Manager.
 
 ## Run the Application
 
