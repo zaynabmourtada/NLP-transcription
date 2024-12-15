@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+transcription-backend/node_modules/
+transcription-frontend/node_modules/
+
+# Build outputs
+transcription-frontend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+transcription-backend/.env
+transcription-frontend/.env

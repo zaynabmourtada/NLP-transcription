@@ -1,0 +1,104 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #4a235a;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+/* Top Box */
+.transcription-box {
+  background-color: #4a235a;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.transcription-text {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.button-section {
+  background-color: #ffebd9;
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.record-button {
+  width: 80px;
+  height: 90px;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.mic-icon{
+    width: 40px;   
+    height: 60px;
+}
+.record-button:hover {
+  background-color: #ff5252;
+}
+
+.recording {
+  animation: glow 1.5s infinite;
+  background-color: #ff5252;
+}
+
+.language-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffebd9;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.language-switch:hover {
+  background-color: #ffdab9;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 5px rgba(255, 107, 107, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(255, 107, 107, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgba(255, 107, 107, 0.7);
+  }
+}
